@@ -36,6 +36,31 @@ export const Icons = {
       <path d="M29.41,9.26a3.5,3.5,0,0,0-2.47-2.47C24.76,6.2,16,6.2,16,6.2s-8.76,0-10.94.59A3.5,3.5,0,0,0,2.59,9.26,36.13,36.13,0,0,0,2,16a36.13,36.13,0,0,0,.59,6.74,3.5,3.5,0,0,0,2.47,2.47C7.24,25.8,16,25.8,16,25.8s8.76,0,10.94-.59a3.5,3.5,0,0,0,2.47-2.47A36.13,36.13,0,0,0,30,16,36.13,36.13,0,0,0,29.41,9.26ZM13.2,20.2V11.8L20.47,16Z" />
     </svg>
   ),
+  peerlist: (props: IconProps) => (
+    <svg
+      width="48"
+      height="49"
+      viewBox="0 0 48 49"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M18 34.5V14.5H26C27.5913 14.5 29.1174 15.1321 30.2426 16.2574C31.3679 17.3826 32 18.9087 32 20.5C32 22.0913 31.3679 23.6174 30.2426 24.7426C29.1174 25.8679 27.5913 26.5 26 26.5H18"
+        stroke="currentColor"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M24 6C38.8 6 42.5 9.7 42.5 24.5C42.5 39.3 38.8 43 24 43C9.2 43 5.5 39.3 5.5 24.5C5.5 9.7 9.2 6 24 6Z"
+        stroke="currentColor"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  ),
   nextjs: (props: IconProps) => (
     <svg
       role="img"
