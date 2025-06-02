@@ -56,7 +56,7 @@ export const DATA = {
         url: "https://peerlist.io/lokeshs",
         icon: Icons.peerlist,
         navbar: true,
-      }
+      },
     },
   },
 
@@ -82,8 +82,7 @@ export const DATA = {
       logoUrl: "/job/anupaat.png",
       start: "Mar 2023",
       end: "Aug 2023",
-      description:
-       "",
+      description: "",
     },
     {
       company: "Tailor Talk",
@@ -94,8 +93,7 @@ export const DATA = {
       logoUrl: "/job/tailortalk.png",
       start: "Dec 2023",
       end: "Jan 2024",
-      description:
-        "",
+      description: "",
     },
     {
       company: "Huellas Labs",
@@ -105,11 +103,9 @@ export const DATA = {
       title: "Frontend Engineer",
       logoUrl: "/job/huellas.svg",
       start: "Aug 2024",
-      end: "Jan 2025",
-      description:
-        "",
+      end: "May 2025",
+      description: "",
     },
-   
   ],
   education: [
     {
@@ -119,7 +115,7 @@ export const DATA = {
       logoUrl: "/edu/bits.png",
       start: "2021",
       end: "2025",
-    }
+    },
   ],
   projects: [
     {
@@ -149,22 +145,49 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "/projects/1beatclub.mp4",
+      video: "/projects/1beatclub.mp4",
+    },
+    {
+      title: "ContriCreator",
+      href: "https://contricreator.space/",
+      dates: "Dec 2024 -Mar 2025",
+      active: true,
+      description:
+        "ContriCreator is your all-in-one AI platform for creators that help you create, analyze, and grow faster. Design thumbnails, extract insights, and streamline your creative workflow—powered by GPT, Gemini, and more.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Node.js",
+        "AWS S3",
+        "Gemini APIs",
+        "ChatGPT APIs",
+        "Google APIs",
+        "Next Auth",
+        "LemonSqueezy",
+        "Webhooks",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://contricreator.space/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/projects/contricreator.mp4",
     },
     {
       title: "Anuppat Nivesh",
       href: "https://anupaat-nivesh-revamp.vercel.app/",
       dates: "Aug 2024 - Aug 2024",
-      active: true, 
+      active: true,
       description:
         "I developed a professional and dynamic website for an investment consultancy. This website serves as a platform for the business to showcase its services, build credibility, and connect with potential clients.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-        "Shadcn UI",
-      ],
+      technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn UI"],
       links: [
         {
           type: "Website",
@@ -220,13 +243,7 @@ export const DATA = {
       active: true,
       description:
         "A web application that allows users to view the current time across multiple regions worldwide. Built with the MERN stack, this application provides an intuitive interface and accurate time updates for various time zones.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-        "Shadcn UI",
-
-      ],
+      technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn UI"],
       links: [
         {
           type: "Website",
@@ -240,8 +257,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "/projects/timesyncer.mp4",
+      video: "/projects/timesyncer.mp4",
     },
     {
       title: "Aashiyana Ave",
@@ -251,22 +267,22 @@ export const DATA = {
       description:
         "Developed a feature-rich web application for listing properties for sale. This platform provides a seamless experience for property owners to showcase their listings and for potential buyers to browse and inquire about properties.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "Tailwind css",
-        "Shadcn",
-        
+        "React.js",
+        "Javascript",
+        "CSS Modules",
+        "MUI",
+        "Node.js",
+        "Mongo DB",
       ],
       links: [
         {
           type: "Website",
           href: "https://aashiyanaave.netlify.app/",
           icon: <Icons.globe className="size-3" />,
-        }
+        },
       ],
       image: "",
-      video:
-        "/projects/aashiyana.mp4",
+      video: "/projects/aashiyana.mp4",
     },
     {
       title: "GD Invest",
@@ -275,25 +291,46 @@ export const DATA = {
       active: true,
       description:
         "I designed and developed a professional web application for an investment consultancy. This platform is tailored to showcase the company’s expertise and services while providing an engaging and user-friendly experience for potential clients.",
-      technologies: [
-        "React.js",
-        "Javascript",
-        "CSS Modules",
-        "MUI",
-        "Node.js",
-        "Mongo DB",
-        
+       technologies: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind css",
+        "Shadcn",
+        "Motion.dev",
       ],
       links: [
         {
           type: "Website",
           href: "https://gd-invest.vercel.app/",
           icon: <Icons.globe className="size-3" />,
-        }
+        },
       ],
       image: "",
-      video:
-        "/projects/gdinvest.mp4",
+      video: "/projects/gdinvest.mp4",
+    },
+    {
+      title: "Acid Dyes Website",
+      href: "https://shubham-industries.vercel.app/",
+      dates: "Jan 2025 - Feb 2025",
+      active: true,
+      description:
+        "Partnered with Shubham Industries to design and develop a modern, responsive website that reflects their commitment to quality and innovation. The goal was to create a strong digital presence that effectively communicates their brand values, product range, and global credibility.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind css",
+        "Shadcn",
+        "Motion.dev",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://shubham-industries.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/projects/shubhamIndustries.mp4",
     },
   ],
   hackathons: [
@@ -681,4 +718,4 @@ export const DATA = {
       ],
     },
   ],
-} as const;
+} ;
