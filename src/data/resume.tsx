@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "I am a software engineer and I love building things for users. Very active on Twitter.",
   summary:
-    "Hello! I am a full-stack software developer with two years of experience.[I have worked on several exciting projects](/#projects), with my most recent being [1BeatClub](https://www.1beatclub.com/). I hold a Bachelor of Science in Computer Science from BITS Pilani. Additionally, I am a member of the [100XDevs Community](https://app.100xdevs.com/), where I help people learn to code and resolve bugs.",
+    "Hello! I am a full-stack software developer with two years of experience.[I have worked on several exciting projects](/#projects), with my most recent being [Hello Pet Dreams](https://hellopetdreams.com/). I hold a Bachelor of Science in Computer Science from BITS Pilani. Additionally, I am a member of the [100XDevs Community](https://app.100xdevs.com/), where I help people learn to code and resolve bugs.",
   avatarUrl: "/me.jpg",
   skills: [
     "React",
@@ -18,9 +18,9 @@ export const DATA = {
     "JavaScript",
     "Typescript",
     "Node.js",
+    "Prisma",
     "Postgres",
     "Mongo DB",
-    "Docker",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -119,6 +119,36 @@ export const DATA = {
   ],
   projects: [
     {
+          title: "Hello Pet Dreams",
+      href: "https://hellopetdreams.com/",
+      dates: "May 2025 -June 2025",
+      active: true,
+      description:
+        "Hello Pet Dreams is a a fun and creative platform that transforms your pet's photo into stunning AI-generated portraits in styles like king, ninja, rockstar, and many more — because pets deserve their moment to shine too! ",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "AWS S3",
+        "AWS Cloudfront",
+        "Firebase Serverless Functions",
+        "Clerk",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Webhooks",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://hellopetdreams.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/projects/hellopetdreams.mp4",  
+    },
+    {
       title: "1BeatClub",
       href: "https://www.1beatclub.com/",
       dates: "Oct 2024 -Nov 2024",
@@ -203,87 +233,87 @@ export const DATA = {
       image: "",
       video: "/projects/anupaatnivesh.mp4",
     },
-    {
-      title: "Chat Application",
-      href: "https://chat-app-personal-project.ashwacreations.com/",
-      dates: "June 2024 - July 2024",
-      active: true,
-      description:
-        "I built a fully functional real-time chat application using the MERN stack. This application enables users to connect seamlessly and communicate in real-time, ensuring an engaging and interactive user experience.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Next-Auth",
-        "Node.js",
-        "Websockets",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://chat-app-personal-project.ashwacreations.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/LokeshXs/chat-app-next.js.git",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "/projects/chatapp.mp4",
-    },
-    {
-      title: "Time Syncer",
-      href: "https://time-syncer.vercel.app/",
-      dates: "Feb 2024 - Feb 2024",
-      active: true,
-      description:
-        "A web application that allows users to view the current time across multiple regions worldwide. Built with the MERN stack, this application provides an intuitive interface and accurate time updates for various time zones.",
-      technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn UI"],
-      links: [
-        {
-          type: "Website",
-          href: "https://time-syncer.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/LokeshXs/TimeSyncer",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "/projects/timesyncer.mp4",
-    },
-    {
-      title: "Aashiyana Ave",
-      href: "https://aashiyanaave.netlify.app/",
-      dates: "Jan 2024 - Mar 2024",
-      active: true,
-      description:
-        "Developed a feature-rich web application for listing properties for sale. This platform provides a seamless experience for property owners to showcase their listings and for potential buyers to browse and inquire about properties.",
-      technologies: [
-        "React.js",
-        "Javascript",
-        "CSS Modules",
-        "MUI",
-        "Node.js",
-        "Mongo DB",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://aashiyanaave.netlify.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "/projects/aashiyana.mp4",
-    },
+    // {
+    //   title: "Chat Application",
+    //   href: "https://chat-app-personal-project.ashwacreations.com/",
+    //   dates: "June 2024 - July 2024",
+    //   active: true,
+    //   description:
+    //     "I built a fully functional real-time chat application using the MERN stack. This application enables users to connect seamlessly and communicate in real-time, ensuring an engaging and interactive user experience.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Typescript",
+    //     "PostgreSQL",
+    //     "Next-Auth",
+    //     "Node.js",
+    //     "Websockets",
+    //     "Prisma",
+    //     "TailwindCSS",
+    //     "Shadcn UI",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://chat-app-personal-project.ashwacreations.com/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/LokeshXs/chat-app-next.js.git",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video: "/projects/chatapp.mp4",
+    // },
+    // {
+    //   title: "Time Syncer",
+    //   href: "https://time-syncer.vercel.app/",
+    //   dates: "Feb 2024 - Feb 2024",
+    //   active: true,
+    //   description:
+    //     "A web application that allows users to view the current time across multiple regions worldwide. Built with the MERN stack, this application provides an intuitive interface and accurate time updates for various time zones.",
+    //   technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn UI"],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://time-syncer.vercel.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/LokeshXs/TimeSyncer",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video: "/projects/timesyncer.mp4",
+    // },
+    // {
+    //   title: "Aashiyana Ave",
+    //   href: "https://aashiyanaave.netlify.app/",
+    //   dates: "Jan 2024 - Mar 2024",
+    //   active: true,
+    //   description:
+    //     "Developed a feature-rich web application for listing properties for sale. This platform provides a seamless experience for property owners to showcase their listings and for potential buyers to browse and inquire about properties.",
+    //   technologies: [
+    //     "React.js",
+    //     "Javascript",
+    //     "CSS Modules",
+    //     "MUI",
+    //     "Node.js",
+    //     "Mongo DB",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://aashiyanaave.netlify.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video: "/projects/aashiyana.mp4",
+    // },
     {
       title: "GD Invest",
       href: "https://gd-invest.vercel.app/",
@@ -308,30 +338,30 @@ export const DATA = {
       image: "",
       video: "/projects/gdinvest.mp4",
     },
-    {
-      title: "Acid Dyes Website",
-      href: "https://shubham-industries.vercel.app/",
-      dates: "Jan 2025 - Feb 2025",
-      active: true,
-      description:
-        "Partnered with Shubham Industries to design and develop a modern, responsive website that reflects their commitment to quality and innovation. The goal was to create a strong digital presence that effectively communicates their brand values, product range, and global credibility.",
-      technologies: [
-        "Next.js",
-        "TypeScript",
-        "Tailwind css",
-        "Shadcn",
-        "Motion.dev",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://shubham-industries.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "/projects/shubhamIndustries.mp4",
-    },
+    // {
+    //   title: "Acid Dyes Website",
+    //   href: "https://shubham-industries.vercel.app/",
+    //   dates: "Jan 2025 - Feb 2025",
+    //   active: true,
+    //   description:
+    //     "Partnered with Shubham Industries to design and develop a modern, responsive website that reflects their commitment to quality and innovation. The goal was to create a strong digital presence that effectively communicates their brand values, product range, and global credibility.",
+    //   technologies: [
+    //     "Next.js",
+    //     "TypeScript",
+    //     "Tailwind css",
+    //     "Shadcn",
+    //     "Motion.dev",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://shubham-industries.vercel.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video: "/projects/shubhamIndustries.mp4",
+    // },
   ],
   hackathons: [
     {
