@@ -102,7 +102,7 @@ export const DATA = {
       location: "Remote",
       title: "Frontend Engineer",
       logoUrl: "/job/huellas.svg",
-      start: "Aug 2024",
+      start: "Mar 2024",
       end: "May 2025",
       description: "",
     },
