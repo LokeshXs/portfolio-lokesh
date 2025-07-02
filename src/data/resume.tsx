@@ -2,19 +2,21 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Lokesh",
-  initials: "DV",
-  url: "https://dillion.io",
+  name: "Lokesh Singh",
+  initials: "LS",
+  // url: "https://dillion.io",
   location: "Rajasthan, India",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
     "I am a software engineer and I love building things for users. Very active on Twitter.",
   summary:
-    "Hello! I am a full-stack software developer with two years of experience.[I have worked on several exciting projects](/#projects), with my most recent being [Hello Pet Dreams](https://hellopetdreams.com/). I hold a Bachelor of Science in Computer Science from BITS Pilani. Additionally, I am a member of the [100XDevs Community](https://app.100xdevs.com/), where I help people learn to code and resolve bugs.",
+    "Hello! I am a full-stack software developer with over two years of experience.[I have worked on several exciting projects](/#projects), with my most recent being [Hello Pet Dreams](https://hellopetdreams.com/). I hold a Bachelor of Science in Computer Science from BITS Pilani. Additionally, I am a member of the [100XDevs Community](https://app.100xdevs.com/), where I help people learn to code and resolve bugs.",
   avatarUrl: "/me.jpg",
   skills: [
-    "React",
+    "React.js",
     "Next.js",
+    "Expo",
+    "React Native",
     "JavaScript",
     "Typescript",
     "Node.js",
