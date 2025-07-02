@@ -13,6 +13,7 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(DATA.url),
   title: {
     default: DATA.name,
     template: `%s | ${DATA.name}`,
@@ -22,6 +23,7 @@ export const metadata: Metadata = {
     title: `${DATA.name}`,
     description: DATA.description,
     siteName: `${DATA.name}`,
+    url: DATA.url,
     locale: "en_In",
     type: "website",
   },
