@@ -7,8 +7,10 @@ import ProjectSection from "@/components/sections/ProjectSection";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { aboutImages } from "@/data/aboutImages";
 import { DATA } from "@/data/resume";
 import { ChevronDown } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
@@ -51,9 +53,25 @@ export default function Page() {
             {DATA.summary}
           </Markdown>
         </BlurFade>
+
+        <BlurFade
+          delay={BLUR_FADE_DELAY * 5}
+          className="columns-3  gap-4 max-sm:gap-2 mt-6"
+        >
+          {aboutImages.map((aboutImg, idx) => (
+            <Image
+              src={aboutImg}
+              alt="About Image"
+              height={300}
+              width={300}
+              key={idx}
+              className=" mb-4 max-sm:mb-2 rounded-xl max-sm:rounded-md"
+            />
+          ))}
+        </BlurFade>
       </section>
       <section id="projects">
-      <ProjectSection/>
+        <ProjectSection />
       </section>
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
@@ -117,7 +135,7 @@ export default function Page() {
           ))}
         </div>
       </section>
-     
+
       {/* <section id="hackathons">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
@@ -179,7 +197,6 @@ export default function Page() {
                 >
                   on twitter
                 </Link>{" "}
-                
               </p>
             </div>
           </BlurFade>

@@ -150,6 +150,30 @@ export const DATA = {
       image: "",
       video: "/projects/hellopetdreams.mp4",  
     },
+      {
+          title: "Film Stash",
+      href: "https://film-stash.vercel.app/",
+      dates: "July 2025 -July 2025",
+      active: true,
+      description:
+        "FilmStash is a modern movie exploration app that lets users discover, save, and organize their favorite movies to watch later — all in one place. Designed with a clean, intuitive interface, the app makes it easy to browse trending films, and build a personal watchlist that’s always just a tap away. ",
+      technologies: [
+        "React Native",
+        "Expo",
+        "Nativewind",
+        "Typescript",
+        "Supabase",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://film-stash.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/projects/filmstash.mp4",  
+    },
     {
       title: "1BeatClub",
       href: "https://www.1beatclub.com/",
