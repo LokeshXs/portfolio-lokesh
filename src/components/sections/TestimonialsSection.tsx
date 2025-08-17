@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 import BlurFade from "../magicui/blur-fade";
 import { Card } from "../ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import Autoplay from "embla-carousel-autoplay"
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -40,7 +41,16 @@ export default function TestimonialSection({
           opts={{
             align: "start",
             loop: true,
+            
           }}
+          plugins={
+            [
+                Autoplay({
+                    delay:5000
+                })
+            ]
+          }
+          
           className="w-full max-sm:w-[95%] mx-auto  "
         >
           <CarouselContent>
