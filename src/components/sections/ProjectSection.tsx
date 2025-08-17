@@ -27,7 +27,7 @@ export default function ProjectSection() {
             </h2>
             <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               I&apos;ve worked on a variety of projects, from simple websites to
-              complex web applications. Here are a few of my favorites.
+              complex web applications and mobile Apps. Here are a few of my favorites.
             </p>
           </div>
         </div>
@@ -48,6 +48,7 @@ export default function ProjectSection() {
               image={project.image}
               video={project.video}
               links={project.links}
+              achievement={project.achievement}
             />
           </BlurFade>
         ))}

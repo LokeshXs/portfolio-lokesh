@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "I am a software engineer and I love building things for users. Very active on Twitter.",
   summary:
-    "Hello! I am a full-stack software developer with over two years of experience.[I have worked on several exciting projects](/#projects), with my most recent being [Hello Pet Dreams](https://hellopetdreams.com/). I hold a Bachelor of Science in Computer Science from BITS Pilani. Additionally, I am a member of the [100XDevs Community](https://app.100xdevs.com/), where I help people learn to code and resolve bugs.",
+    "Hello! I am a full-stack software developer with over 3 years of experience.[I have worked on several exciting projects](/#projects), with my most recent being [Hello Pet Dreams](https://hellopetdreams.com/). I hold a Bachelor of Science in Computer Science from BITS Pilani. Additionally, I am a member of the [100XDevs Community](https://app.100xdevs.com/), where I help people learn to code and resolve bugs.",
   avatarUrl: "/me.jpg",
   skills: [
     "React.js",
@@ -75,28 +75,28 @@ export const DATA = {
     //   description:
     //     "",
     // },
-    {
-      company: "Anupaat Nivesh",
-      badges: [],
-      href: "https://anupaatnivesh.com/",
-      location: "Remote",
-      title: "Frontend Engineer Intern",
-      logoUrl: "/job/anupaat.png",
-      start: "Mar 2023",
-      end: "Aug 2023",
-      description: "",
-    },
-    {
-      company: "Tailor Talk",
-      href: "https://tailortalk.ai/",
-      badges: [],
-      location: "Remote",
-      title: "Frontend Engineer Intern",
-      logoUrl: "/job/tailortalk.png",
-      start: "Dec 2023",
-      end: "Jan 2024",
-      description: "",
-    },
+    // {
+    //   company: "Anupaat Nivesh",
+    //   badges: [],
+    //   href: "https://anupaatnivesh.com/",
+    //   location: "Remote",
+    //   title: "Frontend Engineer Intern",
+    //   logoUrl: "/job/anupaat.png",
+    //   start: "Mar 2023",
+    //   end: "Aug 2023",
+    //   description: "",
+    // },
+    // {
+    //   company: "Tailor Talk",
+    //   href: "https://tailortalk.ai/",
+    //   badges: [],
+    //   location: "Remote",
+    //   title: "Frontend Engineer Intern",
+    //   logoUrl: "/job/tailortalk.png",
+    //   start: "Dec 2023",
+    //   end: "Jan 2024",
+    //   description: "",
+    // },
     {
       company: "Huellas Labs",
       href: "https://www.huellaslabs.com/",
@@ -104,8 +104,19 @@ export const DATA = {
       location: "Remote",
       title: "Frontend Engineer",
       logoUrl: "/job/huellas.svg",
-      start: "Mar 2024",
-      end: "May 2025",
+      start: "Mar 2020",
+      end: "May 2021",
+      description: "",
+    },
+      {
+      company: "HCL Technologies",
+      href: "https://www.huellaslabs.com/",
+      badges: [],
+      location: "Hybrid",
+      title: "Full-Stack Engineer",
+      logoUrl: "/job/HCLTech.png",
+      start: "Sep 2021",
+      end: "Present",
       description: "",
     },
   ],
@@ -149,6 +160,7 @@ export const DATA = {
       ],
       image: "",
       video: "/projects/hellopetdreams.mp4",  
+      achievement:["🏆 #5 on PH","🧑‍🦰 300+ Users"]
     },
       {
           title: "Film Stash",
@@ -172,7 +184,8 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/projects/filmstash.mp4",  
+      video: "/projects/filmstash.mp4",
+      achievement:[]  
     },
     {
       title: "1BeatClub",
@@ -202,6 +215,7 @@ export const DATA = {
       ],
       image: "",
       video: "/projects/1beatclub.mp4",
+      achievement:["🏆 #10 on PH","🧑‍🦰 150+ Users"]
     },
     {
       title: "ContriCreator",
@@ -235,6 +249,7 @@ export const DATA = {
       ],
       image: "",
       video: "/projects/contricreator.mp4",
+      achievement:[] 
     },
     {
       title: "Anuppat Nivesh",
@@ -258,6 +273,7 @@ export const DATA = {
       ],
       image: "",
       video: "/projects/anupaatnivesh.mp4",
+      achievement:[] 
     },
     // {
     //   title: "Chat Application",
@@ -363,6 +379,7 @@ export const DATA = {
       ],
       image: "",
       video: "/projects/gdinvest.mp4",
+      achievement:[] 
     },
     // {
     //   title: "Acid Dyes Website",
@@ -774,4 +791,38 @@ export const DATA = {
       ],
     },
   ],
+
+  testimonials:[
+
+    {
+      content:"Lokesh successfully developed our product website and console application. Throughout this period, he demonstrated strong ownership, sincerity, and a genuine willingness to learn and contribute",
+      name:"Shiva Verma",
+      designation:"(Founder - Tailor Talk)",
+      profileImg:"/testimonial/shiva.webp"
+    },
+        {
+      content:"Working with Lokesh was a good Experience. Was impressed by the designs and website that he created for us. I just brought my ideas and he handled the rest. Nice work!!!",
+      name:"Gagandeep Goyal",
+      designation:"(CTO - GDInvest)",
+      profileImg:"/testimonial/gagan.jpg"
+    },
+           {
+      content:"Lokesh has developed a website for my online agency and exceeded all expectations. He demonstrated remarkable professionalism, technical proficiency, and exemplary communication skills. Lokesh's exceptional talent, efficiency, and commitment to customer satisfaction make him an invaluable asset to our team.",
+      name:"Aleksandrs",
+      designation:"(Founder - Webta)",
+      profileImg:"/testimonial/alek.jpg"
+    },
+             {
+      content:"Thanks to Lokesh, our investment consultancy now has a sleek and professional website that perfectly captures our services. He exceeded our expectations with their expertise and attention to detail.",
+      name:"Akash Garg",
+      designation:"(Founder - Anupaat Nivesh)",
+      profileImg:"/testimonial/akash.webp"
+    },
+               {
+      content:"As a Frontend Engineer at HuellasLabs, Lokesh consistently delivered high-quality, client-focused solutions. His ability to quickly adapt to project requirements and build seamless user interfaces made him a valuable contributor to our service delivery",
+      name:"Jaydeep Kumar",
+      designation:"(Co-Founder - Huellas Labs)",
+      profileImg:"/testimonial/jaydeep.jpg"
+    },
+  ]
 } ;

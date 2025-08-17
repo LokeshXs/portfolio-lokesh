@@ -26,6 +26,7 @@ interface Props {
     href: string;
   }[];
   className?: string;
+  achievement: string[];
 }
 
 export function ProjectCard({
@@ -39,6 +40,7 @@ export function ProjectCard({
   video,
   links,
   className,
+  achievement
 }: Props) {
   return (
     <Card
@@ -97,9 +99,10 @@ export function ProjectCard({
           </div>
         )}
       </CardContent>
-      <CardFooter className="px-2 pb-2">
-        {links && links.length > 0 && (
-          <div className="flex flex-row flex-wrap items-start gap-1">
+      <CardFooter className="px-2 pb-2 flex flex-col gap-2 items-start">
+       <div>
+         {links && links.length > 0 && (
+          <div className="flex flex-row flex-wrap items-start ">
             {links?.map((link, idx) => (
               <Link href={link?.href} key={idx} target="_blank">
                 <Badge key={idx} className="flex gap-2 px-2 py-1 text-[10px]">
@@ -110,6 +113,19 @@ export function ProjectCard({
             ))}
           </div>
         )}
+       </div>
+
+         {achievement?.length>0 &&  <div className=" w-[90%] bg-gradient-to-r from-neutral-400/20 via-neutral-400/80 to-neutral-400/20 mx-auto h-[1px] "/>}
+        <div className=" space-x-2" >
+           {achievement.map((value,idx)=>(
+             <Badge key={`ach-${idx}`} className=" bg-gradient-to-br from-amber-500 to-orange-600 ">
+              <p className="drop-shadow-md">
+                {value}
+              </p>
+            </Badge>
+           ))}
+           
+        </div>
       </CardFooter>
     </Card>
   );

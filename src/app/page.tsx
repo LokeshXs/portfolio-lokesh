@@ -4,6 +4,7 @@ import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import ProjectSection from "@/components/sections/ProjectSection";
+import TestimonialSection from "@/components/sections/TestimonialsSection";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -179,6 +180,10 @@ export default function Page() {
           </BlurFade>
         </div>
       </section> */}
+
+      <section id="testimonials">
+        <TestimonialSection testimonials={DATA.testimonials}/>
+      </section>
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
