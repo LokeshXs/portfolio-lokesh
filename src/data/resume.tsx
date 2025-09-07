@@ -110,7 +110,7 @@ export const DATA = {
     // },
       {
       company: "HCL Technologies",
-      href: "https://www.huellaslabs.com/",
+      href: "https://www.hcltech.com/",
       badges: [],
       location: "Hybrid",
       title: "Full-Stack Engineer",
