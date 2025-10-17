@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "I am a software engineer and I love building things for users. Very active on Twitter.",
   summary:
-    "Hello! I am a full-stack software developer with over 3 years of experience.[I have worked on several exciting projects](/#projects), with my most recent being [Hello Pet Dreams](https://hellopetdreams.com/). I hold a Bachelor of Science in Computer Science from BITS Pilani. Additionally, I am a member of the [100XDevs Community](https://app.100xdevs.com/), where I help people learn to code and resolve bugs.",
+    "Hello! I am a full-stack software developer with over 4 years of experience.[I have worked on several exciting projects](/#projects), with my most recent being [Hello Pet Dreams](https://hellopetdreams.com/). I hold a Bachelor of Science in Computer Science from BITS Pilani. Additionally, I am a member of the [100XDevs Community](https://app.100xdevs.com/), where I help people learn to code and resolve bugs.",
   avatarUrl: "/me.jpg",
   skills: [
     "React.js",
@@ -108,7 +108,7 @@ export const DATA = {
     //   end: "May 2021",
     //   description: "",
     // },
-      {
+    {
       company: "HCL Technologies",
       href: "https://www.hcltech.com/",
       badges: [],
@@ -132,12 +132,13 @@ export const DATA = {
   ],
   projects: [
     {
-          title: "Hello Pet Dreams",
+      title: "Hello Pet Dreams",
       href: "https://hellopetdreams.com/",
       dates: "May 2025 -June 2025",
+      detailsPath:"/project/hellopetdreams",
       active: true,
       description:
-        "Hello Pet Dreams is a a fun and creative platform that transforms your pet's photo into stunning AI-generated portraits in styles like king, ninja, rockstar, and many more — because pets deserve their moment to shine too! ",
+        "Hello Pet Dreams is a a fun and creative platform that transforms your pet's photo into stunning AI-generated portraits in styles like king, ninja, rockstar, and many more. ",
       technologies: [
         "Next.js",
         "Typescript",
@@ -159,11 +160,21 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/projects/hellopetdreams.mp4",  
-      achievement:["🏆 #5 on PH","🧑‍🦰 300+ Users"]
+      video: "/projects/hellopetdreams.mp4",
+      achievement: ["🏆 #5 on PH", "🧑‍🦰 300+ Users"],
+      images: [
+          "/projects/hellopetdreams/img1.png",
+        "/projects/hellopetdreams/img2.png",
+        "/projects/hellopetdreams/img3.png",
+        "/projects/hellopetdreams/img4.png",
+         "/projects/hellopetdreams/img5.png",
+        "/projects/hellopetdreams/img6.png",
+        "/projects/hellopetdreams/img7.png",
+        "/projects/hellopetdreams/img8.png",
+      ],
     },
-      {
-          title: "Film Stash",
+    {
+      title: "Film Stash",
       href: "https://film-stash.vercel.app/",
       dates: "July 2025 -July 2025",
       active: true,
@@ -185,7 +196,7 @@ export const DATA = {
       ],
       image: "",
       video: "/projects/filmstash.mp4",
-      achievement:[]  
+      achievement: [],
     },
     {
       title: "1BeatClub",
@@ -215,7 +226,7 @@ export const DATA = {
       ],
       image: "",
       video: "/projects/1beatclub.mp4",
-      achievement:["🏆 #10 on PH","🧑‍🦰 150+ Users"]
+      achievement: ["🏆 #10 on PH", "🧑‍🦰 150+ Users"],
     },
     {
       title: "ContriCreator",
@@ -249,7 +260,7 @@ export const DATA = {
       ],
       image: "",
       video: "/projects/contricreator.mp4",
-      achievement:[] 
+      achievement: [],
     },
     {
       title: "Anuppat Nivesh",
@@ -273,7 +284,7 @@ export const DATA = {
       ],
       image: "",
       video: "/projects/anupaatnivesh.mp4",
-      achievement:[] 
+      achievement: [],
     },
     // {
     //   title: "Chat Application",
@@ -363,7 +374,7 @@ export const DATA = {
       active: true,
       description:
         "I designed and developed a professional web application for an investment consultancy. This platform is tailored to showcase the company’s expertise and services while providing an engaging and user-friendly experience for potential clients.",
-       technologies: [
+      technologies: [
         "Next.js",
         "TypeScript",
         "Tailwind css",
@@ -379,7 +390,7 @@ export const DATA = {
       ],
       image: "",
       video: "/projects/gdinvest.mp4",
-      achievement:[] 
+      achievement: [],
     },
     // {
     //   title: "Acid Dyes Website",
@@ -792,37 +803,41 @@ export const DATA = {
     },
   ],
 
-  testimonials:[
-
+  testimonials: [
     {
-      content:"Lokesh successfully developed our product website and console application. Throughout this period, he demonstrated strong ownership, sincerity, and a genuine willingness to learn and contribute",
-      name:"Shiva Verma",
-      designation:"(Founder - Tailor Talk)",
-      profileImg:"/testimonial/shiva.webp"
+      content:
+        "Lokesh successfully developed our product website and console application. Throughout this period, he demonstrated strong ownership, sincerity, and a genuine willingness to learn and contribute",
+      name: "Shiva Verma",
+      designation: "(Founder - Tailor Talk)",
+      profileImg: "/testimonial/shiva.webp",
     },
-        {
-      content:"Working with Lokesh was a good Experience. Was impressed by the designs and website that he created for us. I just brought my ideas and he handled the rest. Nice work!!!",
-      name:"Gagandeep Goyal",
-      designation:"(CTO - GDInvest)",
-      profileImg:"/testimonial/gagan.jpg"
+    {
+      content:
+        "Working with Lokesh was a good Experience. Was impressed by the designs and website that he created for us. I just brought my ideas and he handled the rest. Nice work!!!",
+      name: "Gagandeep Goyal",
+      designation: "(CTO - GDInvest)",
+      profileImg: "/testimonial/gagan.jpg",
     },
-           {
-      content:"Lokesh has developed a website for my online agency and exceeded all expectations. He demonstrated remarkable professionalism, technical proficiency, and exemplary communication skills. Lokesh's exceptional talent, efficiency, and commitment to customer satisfaction make him an invaluable asset to our team.",
-      name:"Aleksandrs",
-      designation:"(Founder - Webta)",
-      profileImg:"/testimonial/alek.jpg"
+    {
+      content:
+        "Lokesh has developed a website for my online agency and exceeded all expectations. He demonstrated remarkable professionalism, technical proficiency, and exemplary communication skills. Lokesh's exceptional talent, efficiency, and commitment to customer satisfaction make him an invaluable asset to our team.",
+      name: "Aleksandrs",
+      designation: "(Founder - Webta)",
+      profileImg: "/testimonial/alek.jpg",
     },
-             {
-      content:"Thanks to Lokesh, our investment consultancy now has a sleek and professional website that perfectly captures our services. He exceeded our expectations with their expertise and attention to detail.",
-      name:"Akash Garg",
-      designation:"(Founder - Anupaat Nivesh)",
-      profileImg:"/testimonial/akash.webp"
+    {
+      content:
+        "Thanks to Lokesh, our investment consultancy now has a sleek and professional website that perfectly captures our services. He exceeded our expectations with their expertise and attention to detail.",
+      name: "Akash Garg",
+      designation: "(Founder - Anupaat Nivesh)",
+      profileImg: "/testimonial/akash.webp",
     },
-               {
-      content:"As a Frontend Engineer at HuellasLabs, Lokesh consistently delivered high-quality, client-focused solutions. His ability to quickly adapt to project requirements and build seamless user interfaces made him a valuable contributor to our service delivery",
-      name:"Jaydeep Kumar",
-      designation:"(Co-Founder - Huellas Labs)",
-      profileImg:"/testimonial/jaydeep.jpg"
+    {
+      content:
+        "As a Frontend Engineer at HuellasLabs, Lokesh consistently delivered high-quality, client-focused solutions. His ability to quickly adapt to project requirements and build seamless user interfaces made him a valuable contributor to our service delivery",
+      name: "Jaydeep Kumar",
+      designation: "(Co-Founder - Huellas Labs)",
+      profileImg: "/testimonial/jaydeep.jpg",
     },
-  ]
-} ;
+  ],
+};

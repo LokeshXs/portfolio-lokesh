@@ -9,11 +9,13 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 import {motion} from "framer-motion"
 
+
 const BLUR_FADE_DELAY = 0.04;
 
 export default function ProjectSection() {
   const [projects, setProjects] = useState(DATA.projects.slice(0, 4));
   const [showMore, setShowMore] = useState(false);
+
   return (
     <motion.div layout className="space-y-12 w-full py-12">
       <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -25,7 +27,7 @@ export default function ProjectSection() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
               Check out my latest work
             </h2>
-            <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed ">
               I&apos;ve worked on a variety of projects, from simple websites to
               complex web applications and mobile Apps. Here are a few of my favorites.
             </p>
@@ -49,6 +51,8 @@ export default function ProjectSection() {
               video={project.video}
               links={project.links}
               achievement={project.achievement}
+              detailsPath={project.detailsPath}
+       
             />
           </BlurFade>
         ))}
@@ -78,6 +82,8 @@ export default function ProjectSection() {
           />
         </Button>
       </div>
+
+            
     </motion.div>
   );
 }
