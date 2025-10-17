@@ -1,5 +1,6 @@
 import { ChallengesAndSolutions } from "@/components/sections/ChallengesAndSolutionsSection";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import {
   Carousel,
   CarouselContent,
@@ -9,7 +10,7 @@ import {
 } from "@/components/ui/carousel";
 import { PROJECT_KEY_CHALLENGES } from "@/data/projectData";
 import { DATA } from "@/data/resume";
-import { IconExternalLink } from "@tabler/icons-react";
+import { IconArrowLeftDashed, IconExternalLink, IconHome, IconHomeFilled } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -23,7 +24,7 @@ export default async function Page({
     (item) => item.slug === slug
   )[0];
   return (
-    <div className="min-h-[100dvh]    w-full max-sm:pb-14  ">
+    <div className="min-h-[100dvh]    w-full max-sm:pb-14 relative  ">
       <div className=" flex flex-col items-center gap-4">
         <h1 className=" text-4xl max-md:text-3xl font-bold drop-shadow-md">
           {projectData.name}
@@ -76,6 +77,12 @@ export default async function Page({
           />
         </div>
       </div>
+
+      <Button asChild  size="icon" variant="secondary" className=" absolute top-0 left-2 -translate-y-14 rounded-full max-sm:-translate-y-10 max-sm:-left-2">
+      <Link href="/">
+        <IconHome />
+      </Link>
+      </Button>
     </div>
   );
 }
