@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/carousel";
 import { PROJECT_KEY_CHALLENGES } from "@/data/projectData";
 import { DATA } from "@/data/resume";
-import { IconArrowLeftDashed, IconExternalLink, IconHome, IconHomeFilled } from "@tabler/icons-react";
+import {  IconExternalLink, IconHome, } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -23,6 +23,18 @@ export default async function Page({
   const projectData = PROJECT_KEY_CHALLENGES.filter(
     (item) => item.slug === slug
   )[0];
+
+
+  const projectDetails = DATA.projects.find((item)=>{
+    const detailsPath = item.detailsPath;
+  
+
+    const detailsSlug = detailsPath?.split("/")[2];
+
+    return detailsSlug === slug;
+  })
+
+  console.log(projectDetails);
   return (
     <div className="min-h-[100dvh]    w-full max-sm:pb-14 relative  ">
       <div className=" flex flex-col items-center gap-4">
@@ -37,7 +49,7 @@ export default async function Page({
       <div className=" space-y-2 mt-4" >
         <Carousel className=" w-full  ">
           <CarouselContent className=" flex items-center">
-            {DATA.projects[0].images?.map((imgPath, idx) => (
+            {projectDetails?.images?.map((imgPath, idx) => (
               <CarouselItem
                 key={`hellopetdreams-img-${idx}`}
                 className="  flex  justify-center   "

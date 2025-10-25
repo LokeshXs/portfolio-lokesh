@@ -132,10 +132,56 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "1BeatClub V2",
+      href: "https://www.1beatclub.com/",
+      dates: "Aug 2025 -Oct 2025",
+      active: true,
+      detailsPath: "/project/1beatclub",
+      description:
+        "1Beatclub lets groups create shared music rooms where everyone can add and upvote songs to decide what plays next. The redesigned version focuses on simplicity — with a cleaner interface, seamless real-time syncing, and smarter interactions that make discovering and enjoying music together effortless.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Node.js",
+        "WebSockets",
+        "Google APIs",
+        "AWS",
+        "Clerk",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.1beatclub.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://ik.imagekit.io/twwu6y24i/1Beatclub.mp4?updatedAt=1761312776096",
+      achievement: ["🏆 #10 on PH", "🧑‍🦰 150+ Users"],
+      images: [
+        "/projects/1beatclub/img1.png",
+        "/projects/1beatclub/img2.png",
+        "/projects/1beatclub/img3.png",
+        "/projects/1beatclub/img4.png",
+        "/projects/1beatclub/img5.png",
+        "/projects/1beatclub/img6.png",
+        "/projects/1beatclub/img7.png",
+        "/projects/1beatclub/img8.png",
+        "/projects/1beatclub/img9.png",
+        "/projects/1beatclub/img10.png",
+        "/projects/1beatclub/img11.png",
+      ],
+    },
+    {
       title: "Hello Pet Dreams",
       href: "https://hellopetdreams.com/",
       dates: "May 2025 -June 2025",
-      detailsPath:"/project/hellopetdreams",
+      detailsPath: "/project/hellopetdreams",
       active: true,
       description:
         "Hello Pet Dreams is a a fun and creative platform that transforms your pet's photo into stunning AI-generated portraits in styles like king, ninja, rockstar, and many more. ",
@@ -163,14 +209,58 @@ export const DATA = {
       video: "/projects/hellopetdreams.mp4",
       achievement: ["🏆 #5 on PH", "🧑‍🦰 300+ Users"],
       images: [
-          "/projects/hellopetdreams/img1.png",
+        "/projects/hellopetdreams/img1.png",
         "/projects/hellopetdreams/img2.png",
         "/projects/hellopetdreams/img3.png",
         "/projects/hellopetdreams/img4.png",
-         "/projects/hellopetdreams/img5.png",
+        "/projects/hellopetdreams/img5.png",
         "/projects/hellopetdreams/img6.png",
         "/projects/hellopetdreams/img7.png",
         "/projects/hellopetdreams/img8.png",
+      ],
+    },
+    {
+      title: "Modern Portfolio Template",
+      href: "https://minimal-portfolio-template-by-lokesh.vercel.app/",
+      dates: "Aug 2025 -Aug 2025",
+      active: true,
+      description:
+        "A sleek and minimal portfolio template built with Next.js and Tailwind CSS. Features smooth motion animations, responsive layouts, and clean UI — perfect for developers and designers looking to showcase their work in style.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Tailwind css",
+        "Motion",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://minimal-portfolio-template-by-lokesh.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Github",
+          href: "https://github.com/LokeshXs/Minimal-Portfolio-Template",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://ik.imagekit.io/twwu6y24i/Lokesh's%20portfolio%20video.mp4?updatedAt=1761401521618",
+    achievement: [],
+      images: [
+        "/projects/1beatclub/img1.png",
+        "/projects/1beatclub/img2.png",
+        "/projects/1beatclub/img3.png",
+        "/projects/1beatclub/img4.png",
+        "/projects/1beatclub/img5.png",
+        "/projects/1beatclub/img6.png",
+        "/projects/1beatclub/img7.png",
+        "/projects/1beatclub/img8.png",
+        "/projects/1beatclub/img9.png",
+        "/projects/1beatclub/img10.png",
+        "/projects/1beatclub/img11.png",
       ],
     },
     {
@@ -200,8 +290,9 @@ export const DATA = {
     },
     {
       title: "1BeatClub",
-      href: "https://www.1beatclub.com/",
+      href: "https://www.v1.1beatclub.com/",
       dates: "Oct 2024 -Nov 2024",
+      detailsPath: "/project/v1_1beatclub",
       active: true,
       description:
         "1BeatClub is a collaborative music platform. Where you can Create a music room, invite friends, add song links, and vote for the songs you love. No interruptions, just seamless music tailored to everyone's vibe—perfect for parties, gyms, and beyond!",
@@ -220,7 +311,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://www.1beatclub.com/",
+          href: "https://www.v1.1beatclub.com/",
           icon: <Icons.globe className="size-3" />,
         },
       ],

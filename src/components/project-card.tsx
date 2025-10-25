@@ -49,7 +49,7 @@ export function ProjectCard({
   let hrefPath = detailsPath || href;
 
   return (
-    <Link href={hrefPath} className={cn("block cursor-pointer", className)}>
+    <Link href={hrefPath} className={cn("block cursor-pointer h-full", className)}>
       <Card
         className={
           "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"
