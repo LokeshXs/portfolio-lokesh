@@ -202,4 +202,69 @@ export const PROJECT_KEY_CHALLENGES = [
       },
     ],
   },
+  {
+    name: "Urlbit",
+    slug: "urlbit",
+    website: "https://urlbit.vercel.app/",
+    summary: (
+      <span>
+        <b>URLBit</b> is a fast, secure, and user-friendly URL shortener designed to help users create, manage, and track shortened links effortlessly. Built with a focus on performance and simplicity, it provides analytics for every shortened link — including total clicks and timestamps.
+      </span>
+    ),
+
+    challengesAndSolutions: [
+      {
+        label:
+          "Managing Environment Variables in Go",
+        challenge:
+          "Unlike Node.js, Go does not provide a built-in way to access environment variables using process.env. This made it challenging to manage configuration values securely and consistently across different environments.",
+        solution: (
+          <span className=" text-muted-foreground">
+            I integrated the <b>godotenv</b> package, a standard library for handling environment variables in Go. By loading the .env file and accessing variables through the <b>os.Getenv()</b> method, I was able to efficiently manage configuration data while keeping sensitive information secure and separated from the codebase.
+          </span>
+        ),
+      },
+      {
+        label: "Implementing Authentication and User Authorization with Clerk in Go",
+        challenge:
+          "While integrating Clerk for authentication, I needed a reliable way to retrieve and parse JWT tokens on the backend to identify the user’s ID and fetch data from protected routes. Initially, it was unclear how to securely access and verify the token within Go’s backend environment.",
+        solution: (
+          <span className=" text-muted-foreground">
+          After researching <b>Clerk’s Go SDK</b>, I implemented their official library to validate and parse JWT tokens. Using the documentation, I successfully extracted user information and created a custom middleware to authenticate requests and block unauthorized access, ensuring secure endpoint protection.
+          </span>
+        ),
+      },
+      {
+        label: "Integrating and Optimizing PostgreSQL Database in Go",
+
+        challenge:
+          "I faced a challenge integrating a database with my Go application to store and manage user data efficiently. Unlike frameworks in other languages, Go requires explicit handling of database connections, making setup and query execution slightly complex initially.",
+        solution: (
+          <span className=" text-muted-foreground">
+        I integrated <b>PostgreSQL</b> using its official <b>Go driver</b> and the built-in <b>database/sql</b> package to perform CRUD operations. Additionally, I implemented a connection pool manager to configure maximum open and idle connections, optimizing database performance and preventing overload under heavy request loads.
+          </span>
+        ),
+      },
+      {
+        label: "Implementing Efficient Pagination for User URLs",
+        challenge:
+          "I faced a challenge while implementing pagination to fetch user URLs in manageable chunks instead of retrieving all data at once. The main difficulty was ensuring that pagination occurred at the database level, as fetching all records first and then slicing them in the backend would defeat the purpose of optimization.",
+        solution: (
+          <span className=" text-muted-foreground">
+          I utilized <b>PostgreSQL’s OFFSET and LIMIT clauses in SQL queries to retrieve only the required subset of data per request.</b> This approach allowed efficient data retrieval, reduced memory usage, and significantly improved API response times by sending only the necessary records to the client.
+          </span>
+        ),
+      },
+      {
+        label: "Handling Race Conditions in Rate Limiting Logic",
+        challenge:
+          "While implementing rate limiting on the endpoint responsible for generating short URLs, I encountered a concurrency issue. Since the Gin framework spawns multiple goroutines to handle requests, simultaneous updates to a shared map (used for tracking request counts per user) caused race conditions, leading to inconsistent data and potential memory crashes.",
+        solution: (
+          <span className=" text-muted-foreground">
+          I resolved this issue by using the <b>sync.Mutex feature from Go’s standard library to synchronize access to the shared map</b>. By locking the critical section during updates, I ensured that only <b>one goroutine could modify the data at a time</b>, effectively preventing race conditions and ensuring thread-safe rate limiting.
+          </span>
+        ),
+      },
+    ],
+  },
 ];

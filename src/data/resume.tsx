@@ -220,6 +220,46 @@ export const DATA = {
       ],
     },
     {
+      title: "Urlbit",
+      href: "https://urlbit.vercel.app/",
+      dates: "Sep 2025 - Oct 2025",
+      active: true,
+      detailsPath: "/project/urlbit",
+      description:
+        "URLBit is a fast, secure, and user-friendly URL shortener designed to help users create, manage, and track shortened links effortlessly. Built with a focus on performance and simplicity, it provides  analytics for every shortened link — including total clicks and timestamps.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Go-Lang",
+        "Gin",
+        "AWS",
+        "Clerk",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://urlbit.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "/projects/urlbit.mp4",
+      achievement: [],
+      images: [
+        "/projects/urlbit/img1.png",
+        "/projects/urlbit/img2.png",
+        "/projects/urlbit/img3.png",
+        "/projects/urlbit/img4.png",
+        "/projects/urlbit/img5.png",
+
+      ],
+    },
+    {
       title: "Modern Portfolio Template",
       href: "https://minimal-portfolio-template-by-lokesh.vercel.app/",
       dates: "Aug 2025 -Aug 2025",
