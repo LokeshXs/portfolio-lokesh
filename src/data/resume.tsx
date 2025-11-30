@@ -155,7 +155,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://www.1beatclub.com/",
+          href: "https://www.1beatclub.in/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
