@@ -133,7 +133,7 @@ export const DATA = {
   projects: [
     {
       title: "1BeatClub V2",
-      href: "https://www.1beatclub.com/",
+      href: "https://www.1beatclub.in/",
       dates: "Aug 2025 -Oct 2025",
       active: true,
       detailsPath: "/project/1beatclub",
