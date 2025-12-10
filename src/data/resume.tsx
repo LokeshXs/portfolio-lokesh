@@ -158,6 +158,11 @@ export const DATA = {
           href: "https://www.1beatclub.in/",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Github",
+          href: "https://github.com/LokeshXs/1BeatClub",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "",
       video:
@@ -245,10 +250,14 @@ export const DATA = {
           href: "https://urlbit.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Github",
+          href: "https://github.com/LokeshXs/url-shortener",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "",
-      video:
-        "/projects/urlbit.mp4",
+      video: "/projects/urlbit.mp4",
       achievement: [],
       images: [
         "/projects/urlbit/img1.png",
@@ -256,7 +265,6 @@ export const DATA = {
         "/projects/urlbit/img3.png",
         "/projects/urlbit/img4.png",
         "/projects/urlbit/img5.png",
-
       ],
     },
     {
@@ -288,7 +296,7 @@ export const DATA = {
       image: "",
       video:
         "https://ik.imagekit.io/twwu6y24i/Lokesh's%20portfolio%20video.mp4?updatedAt=1761401521618",
-    achievement: [],
+      achievement: [],
       images: [
         "/projects/1beatclub/img1.png",
         "/projects/1beatclub/img2.png",
