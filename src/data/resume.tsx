@@ -231,7 +231,7 @@ export const DATA = {
       active: true,
       detailsPath: "/project/urlbit",
       description:
-        "URLBit is a fast, secure, and user-friendly URL shortener designed to help users create, manage, and track shortened links effortlessly. Built with a focus on performance and simplicity, it provides  analytics for every shortened link — including total clicks and timestamps.",
+        "Urlbit is a fast, secure, and user-friendly URL shortener designed to help users create, manage, and track shortened links effortlessly. Built with a focus on performance and simplicity, it provides  analytics for every shortened link — including total clicks and timestamps.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -247,12 +247,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://urlbit.vercel.app/",
+          href: "https://urlbit.space/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Github",
-          href: "https://github.com/LokeshXs/url-shortener",
+          href: "https://github.com/LokeshXs/urlbit_url-shortener",
           icon: <Icons.github className="size-3" />,
         },
       ],
