@@ -105,7 +105,8 @@ export const PROJECT_KEY_CHALLENGES = [
   {
     name: "1Beatclub",
     slug: "1beatclub",
-    website: "https://1beatclub.com/",
+    website: "https://1beatclub.in/",
+    github:"https://github.com/LokeshXs/1BeatClub",
     summary: (
       <span>
         <b>1BeatClub</b> is a real-time music collaboration platform that lets
@@ -205,7 +206,8 @@ export const PROJECT_KEY_CHALLENGES = [
   {
     name: "Urlbit",
     slug: "urlbit",
-    website: "https://urlbit.vercel.app/",
+    website: "https://urlbit.space/",
+    github:"https://github.com/LokeshXs/urlbit_url-shortener",
     summary: (
       <span>
         <b>URLBit</b> is a fast, secure, and user-friendly URL shortener designed to help users create, manage, and track shortened links effortlessly. Built with a focus on performance and simplicity, it provides analytics for every shortened link — including total clicks and timestamps.

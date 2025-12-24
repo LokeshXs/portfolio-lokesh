@@ -70,12 +70,18 @@ export default async function Page({
           <CarouselNext  className=" -translate-x-6" />
         </Carousel>
 
-        <div className=" flex justify-start px-2">
+        <div className=" flex justify-start px-2 gap-4">
           <Link href={projectData.website} target="_blank">
             <Badge className=" flex justify-center items-center gap-2 py-1">
               Website <IconExternalLink className=" w-4 h-4" />
             </Badge>
           </Link>
+
+         {projectData?.github&& <Link href={projectData.github} target="_blank">
+            <Badge className=" flex justify-center items-center gap-2 py-1">
+              Github <IconExternalLink className=" w-4 h-4" />
+            </Badge>
+          </Link>}
         </div>
       </div>
 
